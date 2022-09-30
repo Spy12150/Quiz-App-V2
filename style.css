@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(135,180,175);
+    background: linear-gradient(135deg, rgba(135,180,175,1) 0%, rgba(55,193,189,1) 53%, rgba(5,204,245,1) 100%);
+    font-family: Century Gothic;
+}
+
+.logo{
+    font-size: 25px;
+    color: teal;
+    position: absolute;
+    bottom:15px;
+    font-family: Lucida Handwriting;
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    background-color: white;
+    border-radius: 15px;
+    /* In case I want to change individuals I'm just gonna have 4 seperate parts */
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Welcome1 {
+    font-size: 75px;
+    font-style: Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Welcome2{
+    margin-top: 25px;
+    font-size: 40px;
+    font-style: Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Qcontainer {
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.Acontainer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.button{
+    height: 100px;
+    width: 450px;
+    background-color: lightseagreen;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black
+}
+
+.score {
+    margin-top: 50px;
+    font-size: 25px;
+    font-style: Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.incorrect{
+    background-color: lightcoral
+}
+
+.correct{
+    background-color: lightgreen
+}
+
+.start-button{
+    margin-top: 75px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    background-color: aquamarine;
+    padding: 20px 20px;
+}
+
+.confirm-button, .next-button{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    background-color: aquamarine;
+    padding: 20px 20px;
+}
+
+.controls{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.noshow {
+    display:none;
+}
